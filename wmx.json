@@ -1,0 +1,51 @@
+{
+  "name" : "buttonspinner",
+  "displayName" : "Button with Spinner",
+  "description" : "A button component that shows a spinner when loading.",
+  "iconUrl" : "icon.svg",
+  "webSupport" : true,
+  "props" : {
+    "label" : {
+      "name" : "label",
+      "displayName" : "Label",
+      "description" : "Text to display on the button.",
+      "type" : "string",
+      "isRequired" : true
+    },
+    "loading" : {
+      "name" : "loading",
+      "displayName" : "Loading",
+      "description" : "Show spinner when true.",
+      "type" : "boolean",
+      "defaultValue" : false
+    },
+    "onPress" : {
+      "name" : "onPress",
+      "displayName" : "On Press",
+      "description" : "Callback when button is pressed.",
+      "type" : "object"
+    },
+    "disabled" : {
+      "name" : "disabled",
+      "displayName" : "Disabled",
+      "description" : "Disable the button.",
+      "type" : "boolean",
+      "defaultValue" : false
+    },
+    "style" : {
+      "name" : "style",
+      "displayName" : "Style",
+      "description" : "Custom style for the button.",
+      "type" : "object"
+    },
+    "spinnerColor" : {
+      "name" : "spinnerColor",
+      "displayName" : "Spinner Color",
+      "description" : "Color of the spinner.",
+      "type" : "string",
+      "defaultValue" : "#fff"
+    }
+  },
+  "events" : { },
+  "styles" : { }
+}
